@@ -1,0 +1,63 @@
+.booklist__bestbook-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.booklist__bestbook-information {
+  display: flex;
+}
+
+.booklist__bestbook-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.booklist__bestbook-name {
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.booklist__bestbook-publisher {
+  font-weight: 600;
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.booklist__bestbook-star {
+  color: rgb(255, 206, 51);
+}
+
+.booklist__bestbook-category-btn {
+  background-color: rgb(140, 140, 140);
+}
+
+.booklist__bestbook-shoppingbag {
+  display: flex;
+}
+
+.booklist__bestbook-bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 206, 51);
+}
+
+.booklist__bestbook-booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 11px;
+  margin-left: 20px;
+}

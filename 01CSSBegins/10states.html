@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>CSS prac</title>
+
+    <style>
+      body {
+        height: 100vh;
+        margin: 20px;
+      }
+      span {
+        background-color: yellowgreen;
+        color: tomato;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      button:focus {
+        background-color: azure;
+      }
+      input:focus {
+        background-color: chartreuse;
+      }
+
+      a:visited {
+        color: chocolate;
+      }
+      a:hover {
+        color: teal;
+      }
+      a:focus {
+        color: yellow;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 1px solid salmon;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      form:hover input:focus {
+        background-color: silver;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <button>hello</button>
+    </div>
+
+    <form action="">
+      <input type="text" />
+      <input type="text" />
+    </form>
+
+    <div>
+      <a href="https://www.naver.com">게이버</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>advanced css</title>
+
+    <style>
+      a {
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px, 5px;
+        border-radius: 50px;
+        font-size: 100px;
+        /*transition: background-color 2s ease-in-out, color 4s ease-in-out;*/
+        /*transition: all 1s ease-in-out;*/
+        transition: all 1s cubic-bezier(0.165, -0.84, 0.99, 1);
+      }
+      a:hover {
+        color: tomato;
+        background-color: wheat;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">go home</a>
+  </body>
+</html>

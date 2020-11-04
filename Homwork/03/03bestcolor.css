@@ -1,0 +1,45 @@
+body {
+  height: 100vm;
+  background-color: whitesmoke;
+  font-family: Times, "Times New Roman", serif;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:nth-child(1) > dir:nth-child(1) {
+  background-color: tomato;
+}
+li:nth-child(1) > dir:nth-child(2) {
+  background-color: teal;
+}
+li:nth-child(2) > dir:nth-child(1) {
+  background-color: burlywood;
+}
+li:nth-child(2) > dir:nth-child(2) {
+  background-color: thistle;
+}
+
+.colorbox {
+  position: relative;
+  border: solid 5px white;
+  background-color: lightskyblue;
+  width: 200px;
+  height: 400px;
+  margin: 20px 10px;
+  padding: 0px;
+}
+
+.textbox {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  padding: 0px;
+  height: 120px;
+  width: inherit;
+  background-color: white;
+  color: black;
+}

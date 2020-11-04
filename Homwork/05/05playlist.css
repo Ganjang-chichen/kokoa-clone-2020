@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  border: 5px solid cadetblue;
+  padding: 10px;
+}
+.header-playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-playlist__div {
+  width: 33%;
+  min-height: 1px;
+}

@@ -1,0 +1,31 @@
+.lib-title {
+  background-color: rgb(255, 206, 51);
+  height: 85px;
+}
+
+.lib-option {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lib-searchbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-left: 5%;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+}
+
+.lib-searchbox__p {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 40px;
+}
+
+.lib-searchbox__searchIcon {
+  margin-right: 20px;
+}

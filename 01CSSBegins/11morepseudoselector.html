@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>CSS prac</title>
+
+    <style>
+      :root {
+        --main-color: #489ee3;
+      }
+
+      body {
+        height: 100vh;
+        margin: 20px;
+      }
+      span {
+        background-color: yellowgreen;
+        color: tomato;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      input::placeholder {
+        color: yellowgreen;
+      }
+      p::selection {
+        background-color: black;
+        color: white;
+      }
+
+      p::first-letter {
+        font-size: 20px;
+        color: var(--main-color);
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="">
+      <input type="text" placeholder="name" />
+    </form>
+    <p>Power overwhelming!</p>
+
+    <div>
+      <a href="">website</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.booklist__popular-authors-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.booklist__popular-authors-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3px 0px;
+  padding: 0;
+}
+
+.booklist__popular-authors-name {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+
+.booklist__popular-authors-history {
+  font-size: 12px;
+  margin: 10px 0px;
+  opacity: 0.3;
+}

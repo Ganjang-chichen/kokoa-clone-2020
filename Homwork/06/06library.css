@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "https://fonts.googleapis.com/css2?family=Yellowtail&display=swap";
+
+/*Component*/
+@import "titlebar.css";
+@import "mainbook.css";
+@import "subbook.css";
+@import "popular-author.css";
+/*Screen*/
+@import "booklist.css";
+
+body {
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  border-radius: 10px;
+}
